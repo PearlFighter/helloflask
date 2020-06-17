@@ -34,7 +34,7 @@ def contact():
     return render_template("contact.html")
 
 
-companies = [{"id": 1, "name": "Company One"}, {"id": 2, "name": "Company Two"}]
+companies = [{"id": 1, "name": "Company One"}, {"id": 3, "name": "Company Two"}]
 
 @app.route('/companies', methods=['GET'])
 def get_companies():
